@@ -1,0 +1,73 @@
+* {
+  font-size: 28px;
+  font-family: "Manrope", sans-serif;
+  margin: 0;
+  border: 0;
+}
+.mainCont {
+  min-height: 100vh;
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  justify-content: center;
+}
+.adviceCont {
+  color: white;
+  max-width: 500px;
+  width: 500px;
+  margin: auto;
+  background-color: hsl(217, 19%, 24%);
+  padding: 40px;
+  padding-bottom: 0;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.adviceHead,
+.adviceHead span {
+  color: hsl(150, 100%, 66%);
+  font-size: 14px;
+  letter-spacing: 4px;
+  font-weight: normal;
+  font-weight: 400;
+}
+.adviceTextCont {
+  color: hsl(193, 38%, 86%);
+  font-weight: 800;
+}
+.divider {
+  width: 100%;
+}
+.divider img {
+  width: 100%;
+}
+.diceImgCont {
+  width: 60px;
+  height: 60px;
+  background-color: hsl(150, 100%, 66%);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  top: 30px;
+}
+.diceImgCont:hover {
+  box-shadow: 10px 10px 20px -10px hsl(150, 100%, 66%),
+    -10px 10px 20px -10px hsl(150, 100%, 66%),
+    10px -10px 20px -10px hsl(150, 100%, 66%),
+    -10px -10px 20px -10px hsl(150, 100%, 66%);
+}
+.diceImgCont img {
+  height: 24px;
+  width: 24px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-size: 13px;
+}
